@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<GeneDef Name="GeneSkinType" Abstract="True">
+		<biostatCpx>0</biostatCpx>
+		<displayCategory>Skin</displayCategory>
+		<iconColor>(0.75, 0.75, 0.75)</iconColor>
+		<!--replacemetLeather>Leather_Lizard</replacemetLeather-->
+		<exclusionTags>
+		</exclusionTags>
+	</GeneDef>
+
+
+	<GeneDef Class="ReptilianHumanoidsMod.Skin_Tough" ParentName="GeneSkinType">
+		<defName>Skin_Tough</defName>
+		<label>tough skin</label>
+		<labelShortAdj>green</labelShortAdj>
+		<description>Carriers of this gene has tough, as hard as a crocodile's, skin.</description>
+		<iconPath>UI/Icons/Genes/Gene_Skin_Tough</iconPath>
+		<!--<skinColorOverride>(169,182,108)</skinColorOverride> -->
+		<displayOrderInCategory>0</displayOrderInCategory>
+		<geneClass>ReptilianHumanoidsMod.Gene_Skin_Tough</geneClass>
+		<symbolPack>
+			<!--
+			<wholeNameSymbols>
+				<li>
+					<symbol>greenskin</symbol>
+				</li>
+			</wholeNameSymbols>
+			<prefixSymbols>
+				<li>
+					<symbol>green</symbol>
+				</li>
+				<li>
+					<symbol>lime</symbol>
+				</li>
+				<li>
+					<symbol>jade</symbol>
+				</li>
+				<li>
+					<symbol>leaf</symbol>
+				</li>
+			</prefixSymbols>
+			-->
+		</symbolPack>
+		<statFactors>
+			<IncomingDamageFactor>0.8</IncomingDamageFactor>
+		</statFactors>
+		<biostatMet>-1</biostatMet>
+	</GeneDef>
+
+</Defs>

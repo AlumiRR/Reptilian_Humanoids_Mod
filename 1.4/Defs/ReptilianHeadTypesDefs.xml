@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Lizardfolk -->
+
+	<HeadTypeDef Name="LizardHeadBase" Abstract="True">
+		<hairMeshSize>(1.5, 1.5)</hairMeshSize>
+		<beardMeshSize>(1.7, 1.5)</beardMeshSize>
+		<randomChosen>false</randomChosen>
+		<requiredGenes>
+			<li>LizardHeadBase</li>
+		</requiredGenes>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="LizardHeadBase">
+		<defName>Male_LizardHeadBase</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Male_LizardHeadBase</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="LizardHeadBase">
+		<defName>Female_LizardHeadBase</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Male_LizardHeadBase</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="LizardHeadBase">
+		<defName>Male_LizardHeadWide</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Male_LizardHeadWide</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="LizardHeadBase">
+		<defName>Female_LizardHeadWide</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Male_LizardHeadWide</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+
+</Defs>

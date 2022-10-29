@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<GeneDef ParentName="GeneJawBase">
+		<defName>LizardHeadBase</defName>
+		<label>lizard head</label>
+		<description>Carriers of this gene have lizard heads.</description>
+		<forcedHeadTypes>
+			<li>Male_LizardHeadBase</li>
+			<li>Female_LizardHeadBase</li>
+			<li>Male_LizardHeadWide</li>
+			<li>Female_LizardHeadWide</li>
+		</forcedHeadTypes>
+		<iconPath>UI/Icons/Genes/Gene_Lizard_Head</iconPath>
+		<displayOrderInCategory>95</displayOrderInCategory>
+		<symbolPack>
+			<!--<prefixSymbols>
+				
+				<li>
+					<symbol>grunt</symbol>
+				</li>
+				<li>
+					<symbol>jaw</symbol>
+				</li>
+				<li>
+					<symbol>lug</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>grunt</symbol>
+				</li>
+				<li>
+					<symbol>jaw</symbol>
+				</li>
+				<li>
+					<symbol>lug</symbol>
+				</li>
+				<li>
+					<symbol>thal</symbol>
+				</li>
+			</suffixSymbols> -->
+		</symbolPack>
+	</GeneDef>
+
+
+	<GeneDef ParentName="GeneTailBase">
+		<defName>Tail_Lizard</defName>
+		<label>lizard tail</label>
+		<description>Carriers of this gene grow a lizard tail.</description>
+		<iconPath>UI/Icons/Genes/Gene_TailLizard</iconPath>
+		<iconColor>(0.75, 0.75, 0.75)</iconColor>
+		<displayOrderInCategory>1001</displayOrderInCategory>
+		<statFactors>
+			<MoveSpeed>1.01</MoveSpeed>
+		</statFactors>
+		<biostatCpx>0</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/Tails/LizardTail</graphicPath>
+			<colorType>Skin</colorType>
+			<drawOffsetNorth>(0, 0.2, -0.7)</drawOffsetNorth>
+			<drawOffsetSouth>(0, -0.1, -0.4)</drawOffsetSouth>
+			<drawOffsetEast>(-0.55, 0, -0.23)</drawOffsetEast>
+		</graphicData>
+	</GeneDef>
+
+</Defs>

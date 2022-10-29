@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<packageId>alumirr.reptilianhm</packageId>
+	<name>Biotech: Reptilian Humanoids Mod</name>
+	<author>AlumiRR</author>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+
+	<modDependencies>
+	</modDependencies>
+
+	<incompatibleWith>
+	</incompatibleWith>
+
+	<description>Template</description>
+</ModMetaData>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<XenotypeDef>
+		<defName>Lizardfolk</defName>
+		<label>lizardfolk</label>
+		<description>An ancient genetically modified race of people intended for unskilled labor in the subequatorial belt, mainly in conditions of toxic and biohazard danger, get along well in the swamps thanks to their strong immunity. Not too smart, but strong in health creatures that do not tolerate the cold.</description>
+		<descriptionShort>Heavily modified swamp dwellers, created for work in biohazardous environments way back.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/Lizardfolk</iconPath>
+		<displayPriority>50</displayPriority>
+		<inheritable>true</inheritable>
+		<combatPowerFactor>1.1</combatPowerFactor>
+		<genes>
+			<li>Skin_Green</li>
+			<li>Skin_Tough</li>
+			<li>LizardHeadBase</li>
+			<li>Tail_Lizard</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Immunity_Strong</li>
+			<li>ToxResist_Partial</li>
+			<li>MinTemp_SmallIncrease</li>
+			<li>Sleepy</li>
+			<li>AptitudePoor_Intellectual</li>
+		</genes>
+	</XenotypeDef>
+
+</Defs>
