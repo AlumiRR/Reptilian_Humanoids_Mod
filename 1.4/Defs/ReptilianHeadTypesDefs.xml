@@ -20,7 +20,7 @@
 
 	<HeadTypeDef ParentName="LizardHeadBase">
 		<defName>Female_LizardHeadBase</defName>
-		<graphicPath>Things/Pawn/Humanlike/Heads/Male_LizardHeadBase</graphicPath>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Female_LizardHeadBase</graphicPath>
 		<gender>Female</gender>
 	</HeadTypeDef>
 
@@ -32,8 +32,44 @@
 
 	<HeadTypeDef ParentName="LizardHeadBase">
 		<defName>Female_LizardHeadWide</defName>
-		<graphicPath>Things/Pawn/Humanlike/Heads/Male_LizardHeadWide</graphicPath>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Female_LizardHeadWide</graphicPath>
 		<gender>Female</gender>
 	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="LizardHeadBase">
+		<defName>Male_LizardHeadNarrow</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Male_LizardHeadNarrow</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="LizardHeadBase">
+		<defName>Female_LizardHeadNarrow</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Female_LizardHeadNarrow</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+	
+	<!-- DesRep -->
+
+	<HeadTypeDef Name="DesRepHeadBase" Abstract="True">
+		<hairMeshSize>(1.5, 1.5)</hairMeshSize>
+		<beardMeshSize>(1.7, 1.5)</beardMeshSize>
+		<randomChosen>false</randomChosen>
+		<requiredGenes>
+			<li>DesRepHeadBase</li>
+		</requiredGenes>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="DesRepHeadBase">
+		<defName>Male_DesRepHeadBase</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Male_DesRepHeadBase</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="DesRepHeadBase">
+		<defName>Female_DesRepHeadBase</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Male_DesRepHeadBase</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+
 
 </Defs>
