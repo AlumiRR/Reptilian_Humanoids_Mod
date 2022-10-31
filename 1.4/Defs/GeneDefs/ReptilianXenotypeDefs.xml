@@ -25,4 +25,28 @@
 		</genes>
 	</XenotypeDef>
 
+	<XenotypeDef>
+		<defName>DesRep</defName>
+		<label>desert reptiles</label>
+		<description>wip</description>
+		<descriptionShort>wip</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/DesRep</iconPath>
+		<displayPriority>51</displayPriority>
+		<inheritable>true</inheritable>
+		<combatPowerFactor>1.1</combatPowerFactor>
+		<genes>
+			<li>Skin_PaleYellow</li>
+			<li>Skin_Orange</li>
+			<li>Skin_DeepYellow</li>
+			<li>Skin_PaleRed</li>
+			<li>Skin_DeepRed</li>
+			<li>DesRepHeadBase</li>
+			<li>Tail_Lizard</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>MinTemp_SmallIncrease</li>
+			<li>MaxTemp_LargeIncrease</li>
+		</genes>
+	</XenotypeDef>
+
 </Defs>

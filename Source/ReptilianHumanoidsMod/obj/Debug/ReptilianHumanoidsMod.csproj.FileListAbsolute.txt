@@ -3,3 +3,8 @@ C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ReptilianHumanoidsMo
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ReptilianHumanoidsMod\Source\ReptilianHumanoidsMod\obj\Debug\ReptilianHumanoidsMod.csproj.CoreCompileInputs.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ReptilianHumanoidsMod\Source\ReptilianHumanoidsMod\obj\Debug\ReptilianHumanoidsMod.csproj.CopyComplete
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ReptilianHumanoidsMod\Source\ReptilianHumanoidsMod\obj\Debug\ReptilianHumanoidsMod.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Reptilian_Humanoids_Mod\Assemblies\ReptilianHumanoidsMod.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Reptilian_Humanoids_Mod\Source\ReptilianHumanoidsMod\obj\Debug\ReptilianHumanoidsMod.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Reptilian_Humanoids_Mod\Source\ReptilianHumanoidsMod\obj\Debug\ReptilianHumanoidsMod.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Reptilian_Humanoids_Mod\Source\ReptilianHumanoidsMod\obj\Debug\ReptilianHumanoidsMod.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Reptilian_Humanoids_Mod\Source\ReptilianHumanoidsMod\obj\Debug\ReptilianHumanoidsMod.dll

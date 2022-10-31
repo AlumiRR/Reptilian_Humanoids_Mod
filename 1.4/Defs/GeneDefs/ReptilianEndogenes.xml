@@ -11,36 +11,26 @@
 			<li>Female_LizardHeadBase</li>
 			<li>Male_LizardHeadWide</li>
 			<li>Female_LizardHeadWide</li>
+			<li>Male_LizardHeadNarrow</li>
+			<li>Female_LizardHeadNarrow</li>
 		</forcedHeadTypes>
 		<iconPath>UI/Icons/Genes/Gene_Lizard_Head</iconPath>
 		<displayOrderInCategory>95</displayOrderInCategory>
 		<symbolPack>
-			<!--<prefixSymbols>
-				
-				<li>
-					<symbol>grunt</symbol>
-				</li>
-				<li>
-					<symbol>jaw</symbol>
-				</li>
-				<li>
-					<symbol>lug</symbol>
-				</li>
-			</prefixSymbols>
-			<suffixSymbols>
-				<li>
-					<symbol>grunt</symbol>
-				</li>
-				<li>
-					<symbol>jaw</symbol>
-				</li>
-				<li>
-					<symbol>lug</symbol>
-				</li>
-				<li>
-					<symbol>thal</symbol>
-				</li>
-			</suffixSymbols> -->
+		</symbolPack>
+	</GeneDef>
+
+	<GeneDef ParentName="GeneJawBase">
+		<defName>DesRepHeadBase</defName>
+		<label>reptile head</label>
+		<description>Carriers of this gene have reptilian heads.</description>
+		<forcedHeadTypes>
+			<li>Male_DesRepHeadBase</li>
+			<li>Female_DesRepHeadBase</li>
+		</forcedHeadTypes>
+		<iconPath>UI/Icons/Genes/Gene_DesRep_Head</iconPath>
+		<displayOrderInCategory>95</displayOrderInCategory>
+		<symbolPack>
 		</symbolPack>
 	</GeneDef>
 
