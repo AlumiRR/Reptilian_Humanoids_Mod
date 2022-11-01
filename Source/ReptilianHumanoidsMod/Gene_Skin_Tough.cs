@@ -9,10 +9,9 @@ namespace ReptilianHumanoidsMod
 {
     public class Gene_Skin_Tough : Gene
     {
-
-        public override void PostAdd()
+/*        public override void PostAdd()
         {
             base.PostAdd();
-        }
+        }*/
     }
 }
