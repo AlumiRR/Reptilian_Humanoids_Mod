@@ -39,7 +39,7 @@ namespace ReptilianHumanoidsMod
             IEnumerable<Thing> topass = list;
             __result = topass;
         }
-
+        //Lizardpeople villages should only exist in certain bioms
         private static void WorldObject_PostAdd_PostFix(WorldObject __instance)
         {
             bool toBeDeleted = false;
