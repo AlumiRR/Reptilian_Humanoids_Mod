@@ -58,4 +58,17 @@
 		</graphicData>
 	</GeneDef>
 
+   <GeneDef ParentName="GeneVoiceBase">
+    <defName>VoiceSnake</defName>
+    <label>snake voice</label>
+    <description>Carriers have a hissing voice.</description>
+    <iconPath>UI/Icons/Genes/Gene_VoiceSnake</iconPath>
+    <displayOrderInCategory>120</displayOrderInCategory>
+    <soundCall>RH_Snake_Call</soundCall>
+    <soundDeath>RH_Snake_Attack</soundDeath>
+    <soundWounded>RH_Snake_Pain</soundWounded>
+    <symbolPack>
+    </symbolPack>
+  </GeneDef>
+
 </Defs>
