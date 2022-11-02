@@ -15,9 +15,11 @@
 			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
 		</li>
 	</modDependencies>
-
+	<loadAfter>
+		<li>ludeon.rimworld.biotech</li>
+	</loadAfter>
 	<incompatibleWith>
 	</incompatibleWith>
 
-	<description>Template</description>
+	<description>Mod, that brings reptilian genoms and races to Rimworld through thr new Biotech genetics system.</description>
 </ModMetaData>
