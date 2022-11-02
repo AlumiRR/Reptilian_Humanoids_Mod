@@ -29,6 +29,8 @@
 			<li>Female_DesRepHeadBase</li>
 			<li>Male_DesRepHeadNarrow</li>
 			<li>Female_DesRepHeadNarrow</li>
+			<li>Male_DesRepHeadLE</li>
+			<li>Female_DesRepHeadLE</li>
 		</forcedHeadTypes>
 		<iconPath>UI/Icons/Genes/Gene_DesRep_Head</iconPath>
 		<displayOrderInCategory>95</displayOrderInCategory>
@@ -61,7 +63,7 @@
    <GeneDef ParentName="GeneVoiceBase">
     <defName>VoiceSnake</defName>
     <label>snake voice</label>
-    <description>Carriers have a hissing voice.</description>
+    <description>Carriers of this gene have a hissing voice.</description>
     <iconPath>UI/Icons/Genes/Gene_VoiceSnake</iconPath>
     <displayOrderInCategory>120</displayOrderInCategory>
     <soundCall>RH_Snake_Call</soundCall>

@@ -82,6 +82,18 @@
 		<graphicPath>Things/Pawn/Humanlike/Heads/Female_DesRepHeadNarrow</graphicPath>
 		<gender>Female</gender>
 	</HeadTypeDef>
+	
+		<HeadTypeDef ParentName="DesRepHeadBase">
+		<defName>Male_DesRepHeadLE</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Male_DesRepHeadLE</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="DesRepHeadBase">
+		<defName>Female_DesRepHeadLE</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Female_DesRepHeadLE</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
 
 
 </Defs>
