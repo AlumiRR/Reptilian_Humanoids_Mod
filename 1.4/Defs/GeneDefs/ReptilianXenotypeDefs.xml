@@ -9,7 +9,7 @@
 		<iconPath>UI/Icons/Xenotypes/Lizardfolk</iconPath>
 		<displayPriority>50</displayPriority>
 		<inheritable>true</inheritable>
-		<combatPowerFactor>1.1</combatPowerFactor>
+		<combatPowerFactor>1.04</combatPowerFactor>
 		<genes>
 			<li>Skin_Green</li>
 			<li>Skin_Tough</li>
@@ -17,6 +17,7 @@
 			<li>Tail_Lizard</li>
 			<li>Hair_BaldOnly</li>
 			<li>Beard_NoBeardOnly</li>
+			<li>VoiceSnake</li>
 			<li>Immunity_Strong</li>
 			<li>ToxResist_Partial</li>
 			<li>MinTemp_SmallIncrease</li>
@@ -28,7 +29,7 @@
 	<XenotypeDef>
 		<defName>DesRep</defName>
 		<label>desert reptiles</label>
-		<description>It is unknown who and when started deliberately spreading these anthropomorphic lizards on different planets, but one thing is obvious - they are ideal for life at extreme temperatures in which a person would not survive. Those days are long gone, and the owners abandoned them. Now these cunning, tenacious and aggressive creatures inhabit a significant number of worlds, making predatory raids on those who have at least something that can be taken by force, hiding from revenge in sandstorms.</description>
+		<description>It is unknown who and when started deliberately spreading these anthropomorphic lizards on different planets, but one thing is obvious - they are ideal for life at extreme temperatures in which a person would not survive. Those days are long gone, and the owners abandoned them. Now these cunning, tenacious and aggressive creatures inhabit a significant number of worlds, making predatory raids on those who have at least something that can be taken by force, and hiding from revenge in sandstorms.</description>
 		<descriptionShort>Warm-loving reptilian raiders.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/DesRep</iconPath>
 		<displayPriority>51</displayPriority>
@@ -44,6 +45,7 @@
 			<li>Tail_Lizard</li>
 			<li>Hair_BaldOnly</li>
 			<li>Beard_NoBeardOnly</li>
+			<li>VoiceSnake</li>
 			<li>MinTemp_SmallIncrease</li>
 			<li>MaxTemp_LargeIncrease</li>
 			<li>WoundHealing_SuperFast</li>

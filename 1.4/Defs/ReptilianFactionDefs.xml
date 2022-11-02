@@ -536,7 +536,7 @@
 			<warnIfTotalAbove1>true</warnIfTotalAbove1>
 		</xenotypeSet>
 		<allowedArrivalTemperatureRange>10~40</allowedArrivalTemperatureRange>
-		<description>Long time ago relesed from unknown duty, reptilians formed raiding clans in the depths of warm deserts.\n\nDespite their apparent technological weakness, the tribals can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.\n\nThis particular tribe values warlike dominance; it may be difficult to turn them into an ally.</description>
+		<description>Long time ago relesed from unknown duty, reptilians formed raiding clans in the depths of warm deserts.\n\nDespite their apparent technological weakness, the clan people can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.\n\nThis particular clan values warlike dominance; it may be difficult to turn them into an ally.</description>
 		<factionIconPath>World/WorldObjects/DesRepVillageRough</factionIconPath>
 		<colorSpectrum>
 			<li>(0.99, 0.57, 0.37)</li>
