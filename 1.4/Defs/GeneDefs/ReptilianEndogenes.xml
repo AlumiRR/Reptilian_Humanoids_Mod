@@ -27,6 +27,8 @@
 		<forcedHeadTypes>
 			<li>Male_DesRepHeadBase</li>
 			<li>Female_DesRepHeadBase</li>
+			<li>Male_DesRepHeadNarrow</li>
+			<li>Female_DesRepHeadNarrow</li>
 		</forcedHeadTypes>
 		<iconPath>UI/Icons/Genes/Gene_DesRep_Head</iconPath>
 		<displayOrderInCategory>95</displayOrderInCategory>

@@ -44,7 +44,7 @@
 			-->
 		</symbolPack>
 		<statFactors>
-			<IncomingDamageFactor>0.8</IncomingDamageFactor>
+			<IncomingDamageFactor>0.87</IncomingDamageFactor>
 		</statFactors>
 		<biostatMet>-1</biostatMet>
 	</GeneDef>

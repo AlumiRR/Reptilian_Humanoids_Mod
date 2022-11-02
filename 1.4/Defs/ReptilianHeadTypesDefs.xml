@@ -67,7 +67,19 @@
 
 	<HeadTypeDef ParentName="DesRepHeadBase">
 		<defName>Female_DesRepHeadBase</defName>
-		<graphicPath>Things/Pawn/Humanlike/Heads/Male_DesRepHeadBase</graphicPath>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Female_DesRepHeadBase</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="DesRepHeadBase">
+		<defName>Male_DesRepHeadNarrow</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Male_DesRepHeadNarrow</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="DesRepHeadBase">
+		<defName>Female_DesRepHeadNarrow</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Female_DesRepHeadNarrow</graphicPath>
 		<gender>Female</gender>
 	</HeadTypeDef>
 
