@@ -39,19 +39,24 @@ namespace ReptilianHumanoidsMod
             IEnumerable<Thing> topass = list;
             __result = topass;
         }
-        //Lizardpeople villages should only exist in certain bioms
+        //Some villages should only exist in certain bioms
         private static void WorldObject_PostAdd_PostFix(WorldObject __instance)
         {
             bool toBeDeleted = false;
             try
             {
-                if (__instance.Faction.def.xenotypeSet.Contains(DefDatabase<XenotypeDef>.GetNamed("Lizardfolk", false)))
+                if (__instance.Faction.def.xenotypeSet.Contains(DefDatabase<XenotypeDef>.GetNamed("Lizardfolk", false)) | __instance.Faction.def.xenotypeSet.Contains(DefDatabase<XenotypeDef>.GetNamed("DesRep", false)))
                 {
                     for (int i = 0; i < __instance.Faction.def.xenotypeSet.Count; i++)
                     {
                         if (__instance.Faction.def.xenotypeSet[i].xenotype == DefDatabase<XenotypeDef>.GetNamed("Lizardfolk", false))
                         {
                             if(__instance.Faction.def.xenotypeSet[i].chance > 0.5 & __instance.Biome.defName != "TropicalRainforest" & __instance.Biome.defName != "TropicalSwamp")
+                                toBeDeleted = true;
+                        }
+                        if (__instance.Faction.def.xenotypeSet[i].xenotype == DefDatabase<XenotypeDef>.GetNamed("DesRep", false))
+                        {
+                            if (__instance.Faction.def.xenotypeSet[i].chance > 0.5 & __instance.Biome.defName != "AridShrubland" & __instance.Biome.defName != "Desert")
                                 toBeDeleted = true;
                         }
                     }
