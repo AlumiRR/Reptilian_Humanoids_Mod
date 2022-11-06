@@ -25,7 +25,6 @@ namespace ReptilianHumanoidsMod
 
         private static void ButcherProducts_PostFix(Pawn __instance, ref IEnumerable<Thing> __result)
         {
-            Log.Message("ttt");
             List<Thing> list = new List<Thing>();
             foreach (Thing thing in __result)
             {
