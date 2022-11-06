@@ -1,2 +1,8 @@
 
 *.png~
+Assemblies/com.rlabrecque.steamworks.net.dll
+Assemblies/Assembly-CSharp-firstpass.dll
+Assemblies/Assembly-CSharp.dll
+Assemblies/com.rlabrecque.steamworks.net.dll
+Assemblies/Unity.TextMeshPro.dll
+Assemblies/UnityEngine.UI.dll
