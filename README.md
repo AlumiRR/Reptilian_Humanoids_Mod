@@ -7,3 +7,4 @@ ToDo:
 * More genes
 * Expose stuff to xml because it is right thing to do
 * Winter Reptiles
+* Translations
