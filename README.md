@@ -2,6 +2,7 @@
 
 ToDo:
 * Finish Work on DesReps
+* Optional integration with vanilla expanded framewotk
 * More variety in appearance
 * Make DesReps a little more like raiders
 * More genes
