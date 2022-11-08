@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<defName>WinterHibernation</defName>
+		<label>winter hibernation</label>
+		<description>Carriers of this gene more active and less sleepy in summer, can stay in the cold for long, but get very sleepy during colder times.</description>
+		<geneClass>ReptilianHumanoidsMod.Gene_Winter_Hibernation</geneClass>
+		<iconPath>UI/Icons/Genes/Gene_Winter_Hibernation</iconPath>
+		<displayCategory>Temperature</displayCategory>
+		<displayOrderInCategory>100</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<statOffsets>
+			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
+		</statOffsets>
+	</GeneDef>
+</Defs>

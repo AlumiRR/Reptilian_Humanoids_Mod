@@ -55,4 +55,30 @@
 		</genes>
 	</XenotypeDef>
 
+
+	<XenotypeDef>
+		<defName>WinterRep</defName>
+		<label>wintering reptiles</label>
+		<description>yea</description>
+		<descriptionShort>Cold-loving survivalist reptilian.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/DesRep</iconPath>
+		<displayPriority>49</displayPriority>
+		<inheritable>true</inheritable>
+		<combatPowerFactor>0.9</combatPowerFactor>
+		<genes>
+			<li>Skin_SlateGray</li>
+			<li>Skin_LightGray</li>
+			<li>Skin_SheerWhite</li>
+			<li>Skin_Blue</li>
+			<li>Skin_Purple</li>
+			<li>DesRepHeadBase</li>
+			<li>Tail_Lizard</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>VoiceSnake</li>
+			<li>MaxTemp_SmallDecrease</li>
+			<li>WinterHibernation</li>
+		</genes>
+	</XenotypeDef>
+
 </Defs>

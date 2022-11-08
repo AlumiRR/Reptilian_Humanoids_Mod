@@ -58,6 +58,11 @@ namespace ReptilianHumanoidsMod
                             if (__instance.Faction.def.xenotypeSet[i].chance > 0.5 & __instance.Biome.defName != "AridShrubland" & __instance.Biome.defName != "Desert")
                                 toBeDeleted = true;
                         }
+                        if (__instance.Faction.def.xenotypeSet[i].xenotype == DefDatabase<XenotypeDef>.GetNamed("WinterRep", false))
+                        {
+                            if (__instance.Faction.def.xenotypeSet[i].chance > 0.5 & __instance.Biome.defName != "Tundra" & __instance.Biome.defName != "BorealForest")
+                                toBeDeleted = true;
+                        }
                     }
                 }
             }

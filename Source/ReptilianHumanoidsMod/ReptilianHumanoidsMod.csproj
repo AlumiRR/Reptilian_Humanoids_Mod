@@ -50,6 +50,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Hediff_Winter_Hibernation.cs" />
+    <Compile Include="Gene_Winter_Hibernation.cs" />
     <Compile Include="HarmonyPatches.cs" />
     <Compile Include="Skin_Tough.cs" />
     <Compile Include="Gene_Skin_Tough.cs" />
