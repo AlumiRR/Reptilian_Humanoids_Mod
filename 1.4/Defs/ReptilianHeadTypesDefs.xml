@@ -14,37 +14,37 @@
 
 	<HeadTypeDef ParentName="LizardHeadBase">
 		<defName>Male_LizardHeadBase</defName>
-		<graphicPath>Things/Pawn/Humanlike/Heads/Male_LizardHeadBase</graphicPath>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Male/Male_LizardHeadBase</graphicPath>
 		<gender>Male</gender>
 	</HeadTypeDef>
 
 	<HeadTypeDef ParentName="LizardHeadBase">
 		<defName>Female_LizardHeadBase</defName>
-		<graphicPath>Things/Pawn/Humanlike/Heads/Female_LizardHeadBase</graphicPath>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Female/Female_LizardHeadBase</graphicPath>
 		<gender>Female</gender>
 	</HeadTypeDef>
 
 	<HeadTypeDef ParentName="LizardHeadBase">
 		<defName>Male_LizardHeadWide</defName>
-		<graphicPath>Things/Pawn/Humanlike/Heads/Male_LizardHeadWide</graphicPath>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Male/Male_LizardHeadWide</graphicPath>
 		<gender>Male</gender>
 	</HeadTypeDef>
 
 	<HeadTypeDef ParentName="LizardHeadBase">
 		<defName>Female_LizardHeadWide</defName>
-		<graphicPath>Things/Pawn/Humanlike/Heads/Female_LizardHeadWide</graphicPath>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Female/Female_LizardHeadWide</graphicPath>
 		<gender>Female</gender>
 	</HeadTypeDef>
 
 	<HeadTypeDef ParentName="LizardHeadBase">
 		<defName>Male_LizardHeadNarrow</defName>
-		<graphicPath>Things/Pawn/Humanlike/Heads/Male_LizardHeadNarrow</graphicPath>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Male/Male_LizardHeadNarrow</graphicPath>
 		<gender>Male</gender>
 	</HeadTypeDef>
 
 	<HeadTypeDef ParentName="LizardHeadBase">
 		<defName>Female_LizardHeadNarrow</defName>
-		<graphicPath>Things/Pawn/Humanlike/Heads/Female_LizardHeadNarrow</graphicPath>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Female/Female_LizardHeadNarrow</graphicPath>
 		<gender>Female</gender>
 	</HeadTypeDef>
 	
@@ -61,37 +61,37 @@
 
 	<HeadTypeDef ParentName="DesRepHeadBase">
 		<defName>Male_DesRepHeadBase</defName>
-		<graphicPath>Things/Pawn/Humanlike/Heads/Male_DesRepHeadBase</graphicPath>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Male/Male_DesRepHeadBase</graphicPath>
 		<gender>Male</gender>
 	</HeadTypeDef>
 
 	<HeadTypeDef ParentName="DesRepHeadBase">
 		<defName>Female_DesRepHeadBase</defName>
-		<graphicPath>Things/Pawn/Humanlike/Heads/Female_DesRepHeadBase</graphicPath>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Female/Female_DesRepHeadBase</graphicPath>
 		<gender>Female</gender>
 	</HeadTypeDef>
 
 	<HeadTypeDef ParentName="DesRepHeadBase">
 		<defName>Male_DesRepHeadNarrow</defName>
-		<graphicPath>Things/Pawn/Humanlike/Heads/Male_DesRepHeadNarrow</graphicPath>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Male/Male_DesRepHeadNarrow</graphicPath>
 		<gender>Male</gender>
 	</HeadTypeDef>
 
 	<HeadTypeDef ParentName="DesRepHeadBase">
 		<defName>Female_DesRepHeadNarrow</defName>
-		<graphicPath>Things/Pawn/Humanlike/Heads/Female_DesRepHeadNarrow</graphicPath>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Female/Female_DesRepHeadNarrow</graphicPath>
 		<gender>Female</gender>
 	</HeadTypeDef>
 	
 		<HeadTypeDef ParentName="DesRepHeadBase">
 		<defName>Male_DesRepHeadLE</defName>
-		<graphicPath>Things/Pawn/Humanlike/Heads/Male_DesRepHeadLE</graphicPath>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Male/Male_DesRepHeadLE</graphicPath>
 		<gender>Male</gender>
 	</HeadTypeDef>
 
 	<HeadTypeDef ParentName="DesRepHeadBase">
 		<defName>Female_DesRepHeadLE</defName>
-		<graphicPath>Things/Pawn/Humanlike/Heads/Female_DesRepHeadLE</graphicPath>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Female/Female_DesRepHeadLE</graphicPath>
 		<gender>Female</gender>
 	</HeadTypeDef>
 
