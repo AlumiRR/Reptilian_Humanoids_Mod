@@ -73,4 +73,22 @@
     </symbolPack>
   </GeneDef>
 
+	<GeneDef ParentName="GeneEarsBase">
+		<defName>Rep_Pointy_Two_Ears</defName>
+		<label>two pointy ears</label>
+		<description>Carriers of this gene will grow two pairs of big pointy ears.</description>
+		<iconPath>UI/Icons/Genes/Gene_EarPig</iconPath>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/Rep_Ears/Rep_Pointy_Two_Ears</graphicPath>
+			<colorType>Skin</colorType>
+		</graphicData>
+		<symbolPack>
+			<suffixSymbols>
+				<li>
+					<symbol>ear</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
+	</GeneDef>
+
 </Defs>
