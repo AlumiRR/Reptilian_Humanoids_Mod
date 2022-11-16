@@ -17,6 +17,11 @@
 		<iconPath>UI/Icons/Genes/Gene_Lizard_Head</iconPath>
 		<displayOrderInCategory>95</displayOrderInCategory>
 		<symbolPack>
+			<suffixSymbols>
+				<li>
+					<symbol>lizard</symbol>
+				</li>
+			</suffixSymbols>
 		</symbolPack>
 	</GeneDef>
 
@@ -35,6 +40,14 @@
 		<iconPath>UI/Icons/Genes/Gene_DesRep_Head</iconPath>
 		<displayOrderInCategory>95</displayOrderInCategory>
 		<symbolPack>
+			<suffixSymbols>
+				<li>
+					<symbol>snake</symbol>
+				</li>
+				<li>
+					<symbol>reptile</symbol>
+				</li>
+			</suffixSymbols>
 		</symbolPack>
 	</GeneDef>
 
@@ -58,6 +71,13 @@
 			<drawOffsetSouth>(0, -0.1, -0.4)</drawOffsetSouth>
 			<drawOffsetEast>(-0.55, 0, -0.23)</drawOffsetEast>
 		</graphicData>
+		<symbolPack>
+			<suffixSymbols>
+				<li>
+					<symbol>tail</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
 	</GeneDef>
 
    <GeneDef ParentName="GeneVoiceBase">
@@ -72,5 +92,41 @@
     <symbolPack>
     </symbolPack>
   </GeneDef>
+
+	<GeneDef ParentName="GeneEarsBase">
+		<defName>Rep_Pointy_Two_Ears</defName>
+		<label>two pointy ears</label>
+		<description>Carriers of this gene will grow two pairs of big pointy ears.</description>
+		<iconPath>UI/Icons/Genes/Gene_Rep_Pointy_Two_Ears</iconPath>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/Rep_Ears/Rep_Pointy_Two_Ears</graphicPath>
+			<colorType>Skin</colorType>
+		</graphicData>
+		<symbolPack>
+			<suffixSymbols>
+				<li>
+					<symbol>ear</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
+	</GeneDef>
+
+	<GeneDef ParentName="GeneEarsBase">
+		<defName>Rep_Pointy_Three_Ears</defName>
+		<label>three pointy ears</label>
+		<description>Carriers of this gene will grow three pairs of big pointy ears.</description>
+		<iconPath>UI/Icons/Genes/Gene_Rep_Pointy_Three_Ears</iconPath>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/Rep_Ears/Rep_Pointy_Three_Ears</graphicPath>
+			<colorType>Skin</colorType>
+		</graphicData>
+		<symbolPack>
+			<suffixSymbols>
+				<li>
+					<symbol>ear</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
+	</GeneDef>
 
 </Defs>

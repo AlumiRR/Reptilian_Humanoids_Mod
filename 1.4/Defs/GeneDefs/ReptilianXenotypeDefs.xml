@@ -61,7 +61,7 @@
 		<label>wintering reptiles</label>
 		<description>yea</description>
 		<descriptionShort>Cold-loving survivalist reptilian.</descriptionShort>
-		<iconPath>UI/Icons/Xenotypes/DesRep</iconPath>
+		<iconPath>UI/Icons/Xenotypes/WinterRep</iconPath>
 		<displayPriority>49</displayPriority>
 		<inheritable>true</inheritable>
 		<combatPowerFactor>0.9</combatPowerFactor>
@@ -73,6 +73,8 @@
 			<li>Skin_Purple</li>
 			<li>DesRepHeadBase</li>
 			<li>Tail_Lizard</li>
+			<li>Rep_Pointy_Two_Ears</li>
+			<li>Rep_Pointy_Three_Ears</li>
 			<li>Hair_BaldOnly</li>
 			<li>Beard_NoBeardOnly</li>
 			<li>VoiceSnake</li>
